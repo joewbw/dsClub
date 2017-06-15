@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+import Neuron
+
 if __name__ == '__main__':
-    print "Neural network runner"
-    
+    print "Neuron"
+
+    n = Neuron.Neuron()
+
+    print "value: " + str(n.value)

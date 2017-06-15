@@ -1,12 +1,12 @@
-import math
-import numpy
-import scipy
+class Neuron:
 
-inputs = [7,3,6,7,3,6,4,3]
-weights = [1,5,3,5,9,5,3,3]
+    value = float(1.2)
+    weights = []
 
-class NeuralNetwork:
-    
+    def __init__(self):
+        #self.value = float(1.2)
+        pass
+
     def sigmoid_function(x):
         return 1 / (1 + math.e**x)
 
