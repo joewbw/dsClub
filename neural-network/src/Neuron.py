@@ -1,17 +1,11 @@
+import random
+
 class Neuron:
 
-    value = float(1.2)
-    weights = []
-
     def __init__(self):
-        #self.value = float(1.2)
-        pass
-
-    def sigmoid_function(x):
-        return 1 / (1 + math.e**x)
-
-    def transfer_function():
-        print 'empty'
-
-    def activation_function():
-       print 'empty'
+        self.delta = random.uniform(0.0,1.0)
+        self.activation = random.uniform(0.0,1.0)
+        self.weight = random.uniform(0.0,1.0)
+        self.deltaWeight = random.uniform(0.0,1.0)
+        self.inputWeights = []
+        self.inputDeltaWeights = []
