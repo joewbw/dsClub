@@ -6,4 +6,4 @@ To run this neural network cd into the src directory and run the following:
 ```
 
 ## Resources
-http://neuralnetworksanddeeplearning.com/chap2.html
+- http://neuralnetworksanddeeplearning.com
